@@ -1,0 +1,25 @@
+<html> 
+<head> 
+<style>   
+h1 {color:#FFFAF0; font-family: courier new; font-weight: normal} 
+</style> 
+</head> 
+<body style="background-color:#8FBC8F;">  
+<h1>Daily Quote</h1>  
+</body> 
+</html>  
+<script language="JavaScript">  
+<!--  
+var r_text = new Array ();  
+r_text[0] = "Anais Nin says 'I must be a mermaid, for I have no fear of depths, and a great fear of shallow living.'";  
+r_text[1] = "Naguib Mahfouz says 'home is not where you are born; home is where your attempts to escape cease.'";  
+r_text[2] = "SOLVITUR AMBULANDO is Latin for 'it is solved by walking'";  
+r_text[3] = "Miles Davis says 'It takes a long time to sound like yourself.'";  
+r_text[4] = "Friedrich Nietzsche writes 'and those who were seen dancing were thought to be insane by those who could not hear the music.'";  
+r_text[5] = "Emily Dickinson says 'I am out with lanterns looking for myself.'";  
+r_text[6] = "Bjork says 'There are some emotions in your body that not even your best friend can sympathize with, but you will find the right film or the right book, and it will understand you.'";  
+r_text[7] = "Phrase eight";  
+var i = Math.floor(8*Math.random())  
+document.write('<span style="color: #FFFAF0; font-family: courier new; font-weight: normal; font-size: 150%;">' + r_text[i] + '</span>');  
+//-->  
+</script>
